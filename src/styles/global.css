@@ -10,6 +10,10 @@ a:hover {
 
 svg{
   display: inline-block;
+}  
+
+.chungo{
+  max-width: 120ch;
 }
 
 @tailwind components;

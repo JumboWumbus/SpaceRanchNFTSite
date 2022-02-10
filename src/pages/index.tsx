@@ -2,6 +2,7 @@ import Footer from '@/templates/FooterComp';
 import HeroComp from '@/templates/HeroComp';
 import MainPageContent from '@/templates/MainPageContent';
 import NavBar from '@/templates/NavBar';
+import PageSection from '@/templates/pageSection';
 
 
 export default function Index(){
@@ -14,6 +15,7 @@ export default function Index(){
     <NavBar/>
     <HeroComp/>
     <MainPageContent/>
+    <PageSection/>
     <Footer/>
     </>
     
