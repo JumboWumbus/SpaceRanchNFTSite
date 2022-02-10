@@ -1,13 +1,11 @@
-import { useRouter } from 'next/router';
-
-
-import NavBar from '@/templates/NavBar';
+import Footer from '@/templates/FooterComp';
 import HeroComp from '@/templates/HeroComp';
 import MainPageContent from '@/templates/MainPageContent';
-import Footer from '@/templates/FooterComp';
+import NavBar from '@/templates/NavBar';
+
 
 export default function Index(){
-  const router = useRouter();
+
 
   return (
 

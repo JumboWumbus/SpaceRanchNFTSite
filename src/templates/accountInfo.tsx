@@ -17,7 +17,7 @@ export const Account = () => {
     }
   }
 
-  let accountAddress = getLastLetters();
+  
 
   return (
     <div>

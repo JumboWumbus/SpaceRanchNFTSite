@@ -10,9 +10,8 @@ export const Connect = () => {
   const isMounted = useIsMounted()
   const [
     {
-      data: { connector, connectors, connected },
-      error,
-      loading,
+      data: { connectors, connected },
+      
     },
     connect,
   ] = useConnect()
@@ -29,7 +28,7 @@ interface SingleConnectProps{
 
     function renderIcon(name:string){
 
-      let lm;
+      
       switch (name) {
         case "WalletConnect":
           return <WalletConnectLogo width={"100%"} height={"100%"} key={"walletconnect"}/>
